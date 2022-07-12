@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(250, 247, 247);
+    transition: .6s;
+}
+
+h1 {
+    font-size: 5em;
+    color: #3d3935;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+/* # quando é um id */
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+.foto{
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 45%;
+}
+
+#element { /* corresponde à imagem moon & sun*/
+    width: 25px;
+    cursor: pointer;
+}
+
+nav {
+    width: 84%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #212121;
+}
+
+nav ul li a:hover {
+    color: #1b1ec7;
+    font-weight: bold;
+}
+
+.dark-mode {
+    background: #0b0a14;
+}
+
+.dark-mode h1 {
+    color: #f7f9e9;
+}
+
+.dark-mode nav ul li a {
+    text-decoration: none;
+    color: #f7f9e9;
+}
+
+.dark-mode nav ul li a:hover {
+    color: #f35c29;
+}
